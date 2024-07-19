@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Email Grabber</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 10px; }
+    ul { list-style-type: none; padding: 0; }
+    li { margin: 5px 0; display: flex; align-items: center; }
+    .email { flex-grow: 1; }
+    .copy-btn { margin-left: 10px; }
+  </style>
+</head>
+<body>
+  <h1>Email Grabber 1.1</h1>
+  <button id="refresh">Refresh Emails</button>
+  <button id="copyAll">Copy All Emails</button>
+  <button id="cleanEmails">Clean Emails</button>
+  <p id="emailCount">Emails Collected: 0</p>
+  <ul id="emailList"></ul>
+  <script src="popup.js"></script>
+</body>
+</html>
